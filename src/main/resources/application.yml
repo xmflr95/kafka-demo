@@ -1,0 +1,15 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: demo-service
+  profiles:
+    active: local
+    
+
+
+#logging.level.root = info
+#logging.file.name = ./logs/demo.log
+#logging.logback.rollingpolicy.max-history = 9999999
+#logging.logback.rollingpolicy.max-file-size = 100MB
